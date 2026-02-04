@@ -1,0 +1,17 @@
+
+sepdist = function(x)
+{ 
+D=x
+n=nrow(D)
+
+smallest = sum(abs(D[1,]-D[2,]))
+for (i in 1:(n-1))
+for (j in (i+1):n)
+{
+dist = sum(abs(D[i,]-D[j,]))
+if (dist < smallest - 0.5)
+   smallest = dist
+}
+
+smallest
+}

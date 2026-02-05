@@ -16,12 +16,14 @@ Other results in the paper are either based on theoretical results or obtained f
 
 This repository contains four files.
 
-"Table5Figure1.R" is the R code to generate the results in Table 5 and Figure 1. 
-"Table6Figure2.R" is the R code to generate the results in Table 6 and Figure 2.
+"Table5Figure1.R" is the R code to generate the results in Table 5 and Figure 1. It outputs a text file "Table5.txt" and a pdf file "Figure1.pdf."
+
+"Table6Figure2.R" is the R code to generate the results in Table 6 and Figure 2. It outputs a text file "Table6.txt" and a pdf file "Figure2.pdf."
 
 "n28m9s7" contains an oracle array with n=28, m=9 and s=7. It is used by Table5Figure1.R.
+
 "sepdist" contains an R function for calculating the separation distance of a given design. It is used by both Table5Figure1.R and Table6Figure2.R. 
 
 Final comment: 
 Because "Table5Figure1.R" genereates 100,000 random oracle arrays, running this R code multiple times will produce, though very similar, slightly different results.
-The same is true also for "Table6Figure2.R" because it generates 100,000 random balanced designs.
+The same is also true for "Table6Figure2.R" because it generates 100,000 random balanced designs.

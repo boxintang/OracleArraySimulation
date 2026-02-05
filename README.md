@@ -22,7 +22,7 @@ This repository contains four files.
 
 "n28m9s7" contains an oracle array with n=28, m=9 and s=7. It is used by Table5Figure1.R.
 
-"sepdist" contains an R function for calculating the separation distance of a given design. It is used by both Table5Figure1.R and Table6Figure2.R. 
+"sepdist" contains an R function for calculating the separation distance of a given design. It is used by both "Table5Figure1.R" and "Table6Figure2.R." 
 
 Final comment: 
 Because "Table5Figure1.R" genereates 100,000 random oracle arrays, running this R code multiple times will produce, though very similar, slightly different results.

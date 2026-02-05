@@ -20,7 +20,7 @@ This repository contains four files.
 
 "Table6Figure2.R" is the R code to generate the results in Table 6 and Figure 2. It outputs a text file "Table6.txt" and a pdf file "Figure2.pdf."
 
-"n28m9s7" contains an oracle array with n=28, m=9 and s=7. It is used by Table5Figure1.R.
+"n28m9s7" contains an oracle array with n=28, m=9 and s=7. It is used by "Table5Figure1.R."
 
 "sepdist" contains an R function for calculating the separation distance of a given design. It is used by both "Table5Figure1.R" and "Table6Figure2.R." 
 
